@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Romand</title>
+  </head>
+  <body>
+    <div class="wrapper"> 
+      <header class="header"> 
+        <div class="container">
+          <div class="header-flex"> <a class="header-logo" href="/"><img src="assets/images/logo.svg" alt=""></a>
+            <div class="header-content"> 
+              <div class="header-top"> 
+                <ul class="header-menu"> 
+                  <li class="header-menu__item"> <a class="header-menu__link" href="#">Компания</a></li>
+                  <li class="header-menu__item"> <a class="header-menu__link" href="#">Блог </a></li>
+                  <li class="header-menu__item"> <a class="header-menu__link" href="#">Партнерам</a></li>
+                  <li class="header-menu__item"><a class="header-menu__link header-menu__link_dropdown" href="#">Помощь</a>
+                    <ul class="header-menu__dropdown"> 
+                      <li class="header-menu__dropdown_item"> <a class="header-menu__dropdown_link" href="#">Доставка</a></li>
+                      <li class="header-menu__dropdown_item"> <a class="header-menu__dropdown_link selected" href="#">Оплата</a></li>
+                      <li class="header-menu__dropdown_item"> <a class="header-menu__dropdown_link" href="#">Возврат</a></li>
+                      <li class="header-menu__dropdown_item"> <a class="header-menu__dropdown_link" href="#">Оферта</a></li>
+                      <li class="header-menu__dropdown_item"> <a class="header-menu__dropdown_link" href="#">Защита информации</a></li>
+                    </ul>
+                  </li>
+                  <li class="header-menu__item"> <a class="header-menu__link" href="#">Сертификаты</a></li>
+                  <li class="header-menu__item"> <a class="header-menu__link" href="#">Контакты</a></li>
+                </ul>
+                <div class="header-contacts"> 
+                  <p>Москва, Ленинградский пр-т, 72, к.1</p>
+                  <p> <a class="link" href="tel:84959336000">+7 (495) 933-60-00</a></p>
+                  <p> <a class="link" href="mailto:cosmetic@mail.ru">cosmetic@mail.ru</a></p>
+                </div>
+              </div>
+              <div class="header-bottom"> 
+                <button class="catalog-button"> <span class="text">Каталог</span><span class="menu-toggle"></span></button>
+                <div class="catalog-content"> 
+                  <div class="catalog-content__block">
+                    <p class="title">Каталог</p>
+                    <ul class="catalog-menu"> </ul>
+                    <li class="catalog-menu__item"><a class="catalog-menu__link" href="#">Бытовая химия</a>
+                      <div class="catalog-menu__dropmenu"> 
+                        <p class="catalog-menu__dropmenu_title">Бытовая химия</p>
+                        <ul class="list-menu">
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Все товары</a></li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Средства для стирки</a>
+                            <div class="catalog-menu__submenu"><a class="catalog-menu__submenu__back" href="#">Средства для стирки</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для посуды</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для ПММ</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Антижир</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Теблетки для ПММ</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Средства для сантехники</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Средства для сантехники</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">УМС</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">УМС</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Средства для кухни</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Средства для кухни</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Для пола</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Для пола</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для пола 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для пола 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для пола 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для пола 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Для стекол</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Для стекол</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для стекол 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для стекол 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для стекол 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Для стекол 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="catalog-menu__item"><a class="catalog-menu__link" href="#">Косметические средства</a>
+                      <div class="catalog-menu__dropmenu">
+                        <p class="catalog-menu__dropmenu_title">Косметические средства</p>
+                        <ul class="list-menu">
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Все товары</a></li>
+                          <li class="list-menu__item"> <a class="list-menu__link active mobile-active" href="#">Косметические средства 0</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 0</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Косметические средства 1</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 1</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Косметические средства 15</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 15</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Косметические средства 2</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 2</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Косметические средства 3</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 3</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Косметические средства 4</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Косметические средства 4</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="catalog-menu__item"><a class="catalog-menu__link" href="#">Детская химия</a>
+                      <div class="catalog-menu__dropmenu">
+                        <p class="catalog-menu__dropmenu_title">Детская химия</p>
+                        <ul class="list-menu">
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Все товары</a></li>
+                          <li class="list-menu__item"> <a class="list-menu__link active mobile-active" href="#">Детская химия 1</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Детская химия 1</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Детская химия 2</a>
+                            <div class="catalog-menu__submenu"><a class="catalog-menu__submenu__back" href="#">Детская химия 2 </a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Детская химия 3</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Детская химия 3</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Детская химия 4</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Детская химия 4</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Детская химия 5</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Детская химия 5</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Детская химия 6</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Детская химия 6</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="catalog-menu__item"><a class="catalog-menu__link" href="#">Предметы гигиены</a>
+                      <div class="catalog-menu__dropmenu">
+                        <p class="catalog-menu__dropmenu_title">Предметы гигиены</p>
+                        <ul class="list-menu">
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Все товары</a></li>
+                          <li class="list-menu__item"> <a class="list-menu__link active mobile-active" href="#">Предметы гигиены 0</a>
+                            <div class="catalog-menu__submenu"><a class="catalog-menu__submenu__back" href="#">Предметы гигиены 0</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 11 </a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Предметы гигиены 1</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Предметы гигиены 1</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Предметы гигиены 2</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Предметы гигиены 2</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Предметы гигиены 3</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Предметы гигиены 3</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Предметы гигиены 4</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Предметы гигиены 4</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Предметы гигиены 5</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Предметы гигиены 5</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="catalog-menu__item"><a class="catalog-menu__link" href="#">Клининг</a>
+                      <div class="catalog-menu__dropmenu">
+                        <p class="catalog-menu__dropmenu_title">Клининг</p>
+                        <ul class="list-menu">
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Все товары</a></li>
+                          <li class="list-menu__item"> <a class="list-menu__link active mobile-active" href="#">Клининг 0</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 0</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Клининг 1</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 1</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Клининг 2</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 2</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Клининг 3</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 3</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-2.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Клининг 4</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 4</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                          <li class="list-menu__item"> <a class="list-menu__link" href="#">Клининг 5</a>
+                            <div class="catalog-menu__submenu"> <a class="catalog-menu__submenu__back" href="#">Клининг 5</a>
+                              <ul class="list"> 
+                                <li class="list-item"> <a class="list-link" href="#">Все товары</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 1</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 2</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 3</a></li>
+                                <li class="list-item"> <a class="list-link" href="#">Средство 4</a></li>
+                              </ul><span class="item-image">    <img src="assets/images/menu-1.png" alt=""></span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="catalog-content__mobile"> 
+                    <ul class="list"> 
+                      <li> <a href="#">Компания</a></li>
+                      <li> <a href="#">Блог</a></li>
+                      <li> <a href="#">Партнерам</a></li>
+                      <li> <a href="#">Помощь</a></li>
+                      <li> <a href="#">Сертификаты </a></li>
+                      <li> <a href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="list"> 
+                      <li> <a href="#">Доставка</a></li>
+                      <li> <a href="#">Оплата</a></li>
+                      <li> <a href="#">Возврат</a></li>
+                      <li> <a href="#">Оферта</a></li>
+                      <li> <a href="#">Защита информации</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <form class="header-search"> 
+                  <input class="form-control" type="text" placeholder="Поиск по каталогу">
+                  <button class="header-search__button" type="submit"> <img src="assets/images/search.svg" alt=""></button>
+                </form>
+                <button class="btn button button-lightblue" type="button">Стать партнером</button>
+              </div>
+              <button class="mobile-search" type="button"><img src="assets/images/search.svg" alt=""><img class="close-seacrh" src="assets/images/close.svg" alt=""></button>
+              <div class="mobile-search__content">
+                <p>Поиск</p><form> 
+<input class="form-control" type="text" id="mobileSearch" placeholder="Поиск по каталогу">
+                <button class="btn button button-lightblue mobile-search__clear" type="button">Очистить</button></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main-section">
+        <div class="error-page"> 
+          <div class="error-page__block">
+            <p class="code">404</p>
+            <h1>не нашли то, что искали?</h1>
+            <p>Попробуйте воспользоваться поиском, или вернитесь на главную страницу.</p><a class="btn button button-blue" href="/">Вернуться на главную</a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.js"></script>
+    <script src="assets/js/jquery.formstyler.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
