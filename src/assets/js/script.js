@@ -187,6 +187,14 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector('.mobile-search').classList.remove('active');
       document.querySelector('.mobile-search__content').classList.remove('show');
     }
+    if (e.target.closest('.sidebar-menu__link_button')) {
+      e.preventDefault();
+
+      const blocks = document.querySelectorAll('.sidebar-menu__item');
+      blocks.forEach(element => element.classList.remove('active'));
+
+      e.target.closest('.sidebar-menu__item').classList.add('active');
+    }
   });
 
   document.querySelector('#mobileSearch').addEventListener('input', e => {
@@ -383,20 +391,24 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
-
-  
-
-
-
-
-
-
-
-
-   
+     
   setTimeout(function() {
     $('select').styler();
-  }, 100)
+  }, 100);
+
+  document.querySelector('.level-one').onchange = function() {
+    const value = document.querySelector('.level-one').parentNode.querySelector('.jq-selectbox__select-text').textContent; // выбираем элемент select
+    if (value) {
+      document.querySelector('.level-two').classList.add('show');
+    }
+  }
+
+
+
+
+
+
+
 
   const swiper2 = new Swiper(".portfolio-slider", {
     allowTouchMove: true,
