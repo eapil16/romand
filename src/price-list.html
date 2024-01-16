@@ -458,41 +458,331 @@
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Контакты </li>
+                  <li class="breadcrumb-item"><a href="#">Партнерам</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Прайс-лист</li>
                 </ol>
               </nav>
-              <h1>Контакты</h1>
+              <h1>Прайс-лист</h1>
             </div>
           </div>
           <div class="container">
-            <div class="contacts"> 
-              <div class="contacts-content"> 
-                <div class="contacts-item"> 
-                  <p class="title">Адрес:</p>
-                  <p>Москва, Ленинградский пр-т, 72, к.1</p>
+            <div class="inside-block"> 
+              <div class="inside-sidebar">
+                <div class="inside-sidebar__mobile">	
+                  <select class="level-one">
+                    <option class="hidden" value="no-value">Категории</option>
+                    <option value="">Бытовая химия</option>
+                    <option value="">Косметические средства</option>
+                    <option value="">Детская химия</option>
+                    <option value="">Предметы гигиены</option>
+                    <option value="">Клининг</option>
+                  </select>
+                  <select class="level-two">
+                    <option class="hidden" value="no-value">Все</option>
+                    <option value="">Средства для стирки</option>
+                    <option value="">Средства для сантехники</option>
+                    <option value="">Средства для кухни</option>
+                    <option value="">УМС</option>
+                    <option value="">Для пола</option>
+                    <option value="">Для стекол</option>
+                  </select>
+                  <select class="level-three">
+                    <option class="hidden" value="no-value">Все</option>
+                    <option value="">Для унитаза</option>
+                    <option value="">Гели</option>
+                    <option value="">Для плитки</option>
+                    <option value="">Для акрила</option>
+                  </select>
                 </div>
-                <div class="contacts-item"> 
-                  <p class="title">Время работы:</p>
-                  <p>Пн-чт 8.00-17.00</p>
-                  <p>Пт 8.00-16.00</p>
-                  <p>Сб-вс выходные</p>
+                <h2>Категории</h2>
+                <div class="inside-sidebar__block">
+                  <p class="title">Бытовая химия</p>
+                  <ul class="sidebar-menu"> 
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Средства для стирки<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item active"><a class="sidebar-menu__link" href="#">Средства для сантехники<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Для унитаза</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link active" href="#">Гели </a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Для плитки</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Для акрила</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Средства для кухни<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средства 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средства 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средства 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">УМС</a></li>
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Для пола</a></li>
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Для стекол</a></li>
+                  </ul>
                 </div>
-                <div class="contacts-item"> 
-                  <p class="title">Телефоны:</p>
-                  <p> <a class="link" href="tel:84959336000">+7 (495) 933-60-00</a></p>
-                  <p> <a class="link" href="tel:89208007060">+7 (920) 800-70-60</a></p>
+                <div class="inside-sidebar__block">
+                  <p class="title">Косметические средства</p>
+                  <ul class="sidebar-menu"> 
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Средства для волос<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Средства для тела<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 3</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 4	</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Мыло</a></li>
+                  </ul>
                 </div>
-                <div class="contacts-item"> 
-                  <p class="title">E-mail:</p>
-                  <p> <a class="link-item" href="mailto:cosmetic@mail.ru">cosmetic@mail.ru</a></p>
+                <div class="inside-sidebar__block">
+                  <p class="title">Детская химия</p>
+                  <ul class="sidebar-menu"> 
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Косметические средства<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Подгузники</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Салфетки</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Мыло</a></li>
+                  </ul>
                 </div>
-                <div class="contacts-item"> 
-                  <p class="title">Telegram и WhatsApp:</p>
-                  <p> <a class="link-item" href="#">@company_name	</a></p>
+                <div class="inside-sidebar__block">
+                  <p class="title">Предметы гигиены</p>
+                  <ul class="sidebar-menu"> 
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Прокладки</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Зубные пасты</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Дезодоранты</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Бритвенные станки</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Пена для бритья</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Ватные палочки</a></li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Зубные щетки</a></li>
+                  </ul>
+                </div>
+                <div class="inside-sidebar__block">
+                  <p class="title">Клининг</p>
+                  <ul class="sidebar-menu"> 
+                    <li class="sidebar-menu__item"> <a class="sidebar-menu__link" href="#">Моющие средства для клининга<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="#">Товары для профессиональной уборки<span class="sidebar-menu__link_button"> <img src="assets/images/arrow-bott.svg" alt=""></span></a>
+                      <ul class="sidebar-menu__dropdown"> 
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 1</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 2</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 3</a></li>
+                        <li class="sidebar-menu__dropdown__item"> <a class="sidebar-menu__dropdown__link" href="#">Средствo 4	</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="contacts-map">
-                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aef3b8fee8405d13b87fe1a9e42674f3568e732d7034440fd12fa7f0b75e251dc&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp"></script></div>
+              <div class="catrgory-block"> 
+                <h2>Средства для сантехники</h2>
+                <div class="price-list__search">
+                   <input class="form-control" type="text" placeholder="Поиск товаров по названию">
+<button class="price-list__search__button" type="submit"> 
+<img src="assets/images/search.svg" alt="">
+</button>
+                </div>
+                <div class="price-list__content"> 
+                  <table> 
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для санузлов ТУАЛЕТНЫЙ УТЕНОК стикер чистоты 3шт Видимый Эффект</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                    <tr> 
+                      <td>Средство для пола BIOPIN 1000мл Сицилийский лимон 10/600</td>
+                      <td>349.45 руб.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="pagination-block">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">...</li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                  </ul><a class="btn button button-lightblue" href="#">Следующая страница</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
