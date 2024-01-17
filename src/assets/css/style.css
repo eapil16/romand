@@ -3935,6 +3935,84 @@ h2 {
   margin: 0 0 20px 0;
 }
 
+.vacancies {
+  margin: 30px 0 0;
+}
+
+.vacancies-item {
+  max-width: 820px;
+  margin: 0 0 30px 0;
+  padding: 40px;
+  background: #EEF4FB;
+  border-radius: 10px;
+}
+
+.vacancies-item h2 {
+  font-size: 24px;
+  line-height: 38px;
+  color: #0055D0;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.vacancies-item p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.vacancies-item p.price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.vacancies-item p.note {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.vacancies-item .list {
+  display: block;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.vacancies-item .list li {
+  display: block;
+  padding: 0 0 0 14px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+  position: relative;
+}
+
+.vacancies-item .list li:last-child {
+  margin: 0;
+}
+
+.vacancies-item .list li:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background: #0055D0;
+  border-radius: 50%;
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
 @media screen and (min-width: 1450px) {
   .container {
     max-width: 1420px;
@@ -4667,6 +4745,14 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  .vacancies-item {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .vacancies-item h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .partners-steps__list li {
     margin: 0 0 20px 0;
   }
